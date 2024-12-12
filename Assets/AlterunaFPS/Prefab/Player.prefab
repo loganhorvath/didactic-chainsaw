@@ -4542,6 +4542,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banana
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 100000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.47
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 400000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0

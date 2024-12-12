@@ -5,6 +5,7 @@ public class DynamicCrosshair : MonoBehaviour
 {
     public RectTransform leftImage;  // Left crosshair image RectTransform
     public RectTransform rightImage; // Right crosshair image RectTransform
+    public RectTransform centerImage; // Center dot of the crosshair
     public float baseOffset = 50f;   // Default distance from the center
     public float normalMovement = 20f; // Outward movement when WASD is pressed
     public float sprintMultiplier = 1.5f; // Multiplier for movement when Shift is held
@@ -38,5 +39,6 @@ public class DynamicCrosshair : MonoBehaviour
         // Update crosshair positions
         leftImage.anchoredPosition = new Vector2(-offset, 0);
         rightImage.anchoredPosition = new Vector2(offset, 0);
+        centerImage.anchoredPosition = new Vector2(0, 0);
     }
 }
